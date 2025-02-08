@@ -65,3 +65,30 @@ a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
+
+.address-link {
+    color: #333333; /* Change this to your desired color */
+    text-decoration: none;
+}
+
+.address-link:hover {
+    color: #666666; /* Change this to your desired hover color */
+    text-decoration: underline;
+}
+
+.last-pic-gallery {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.last-pic-gallery img {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.copyright-text{
+    text-align: center;
+    line-height: 2;
+}
