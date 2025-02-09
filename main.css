@@ -36,6 +36,8 @@ body {
 }
 
 .center-content {
+    width: 80%;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -52,6 +54,11 @@ body {
 }
 
 .image-gallery img {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.chef-image-gallery img {
     border: 3px solid black;
     border-radius: 5px;
 }
@@ -91,4 +98,64 @@ a:hover {
 .copyright-text{
     text-align: center;
     line-height: 2;
+}
+
+table, tr, th, td, caption {
+    border: 2px solid #000000;
+    font-family: 'Times New Roman', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+  	text-align: center;
+  	color: #F5E1A4;
+  	
+}
+
+caption {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #F5E1A4;  /* Lighter border */
+    border-collapse: collapse;
+    min-width: 800px;
+}
+
+table caption {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #F5E1A4;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #F5E1A4;
+}
+
+th {
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #1a3d37;  /* Slightly darker than the body background */
+    color: #F5E1A4;
+}
+
+td {
+    font-size: 20px;
+    font-weight: bold;
+    color: #F5E1A4;
+}
+
+
+
+td:nth-child(3) {  /* Image column */
+    text-align: center;
 }
