@@ -1,6 +1,8 @@
 # Cafe-Serene
 Just creating a webpage using HTML and some very basic CSS
 
+Some screenshots of the webpage
+
 ![Image](https://github.com/user-attachments/assets/02e564bd-5571-4e0d-bee7-042b69f6a111)
 ![Image](https://github.com/user-attachments/assets/9b34ebdf-2d7c-42d1-805a-e8607f317677)
 ![Image](https://github.com/user-attachments/assets/75d0ca33-ef68-40f6-8e51-6369eee1b499)
