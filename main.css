@@ -159,3 +159,15 @@ td {
 td:nth-child(3) {  /* Image column */
     text-align: center;
 }
+
+.image-gallery figure {
+    display: inline-block;
+    margin: 20px;
+}
+
+.image-gallery figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: #F5E1A4;  /* Matches your color scheme */
+    font-style: italic;
+}
