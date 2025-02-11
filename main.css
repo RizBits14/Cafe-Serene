@@ -236,3 +236,97 @@ input[type="number"]:focus {
 .feedback-form p {
     margin: 15px 0;
 }
+
+/* Checkbox container styling */
+.checkbox-group {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;  /* This ensures vertical centering */
+    gap: 10px;  /* Consistent spacing between checkbox and label */
+}
+
+/* Custom checkbox styling */
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #25544b;
+    border-radius: 4px;
+    background-color: #F5E1A4;
+    cursor: pointer;
+    position: relative;
+    margin: 0;  /* Remove default margins */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Label styling for checkboxes */
+input[type="checkbox"] + label {
+    color: #25544b;
+    font-size: 18px;
+    cursor: pointer;
+    user-select: none;
+    display: flex;  /* Enable flex layout */
+    align-items: center;  /* Center vertically */
+    margin: 0;  /* Remove default margins */
+    line-height: 1;  /* Adjust line height */
+}
+
+/* Checkbox hover effect */
+input[type="checkbox"]:hover {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(37, 84, 75, 0.2);
+}
+
+/* Checkbox checked state */
+input[type="checkbox"]:checked {
+    background-color: #25544b;
+}
+
+/* Checkmark symbol */
+input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    color: #F5E1A4;
+    font-size: 16px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Label hover effect */
+input[type="checkbox"] + label:hover {
+    color: #25544b;
+    opacity: 0.8;
+}
+
+/* Sub-checkboxes container */
+.sub-checkboxes {
+    margin-left: 30px;
+    padding-left: 10px;
+    border-left: 2px solid #25544b;
+    margin-bottom: 15px;
+}
+
+/* Sub-item styling */
+.checkbox-group.sub-item {
+    margin: 5px 0;
+}
+
+.checkbox-group.sub-item input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.checkbox-group.sub-item label {
+    font-size: 16px;
+    color: #25544b;
+    opacity: 0.9;
+}
+
+input[type="checkbox"]:checked + label + .sub-checkboxes {
+    display: block;
+}
