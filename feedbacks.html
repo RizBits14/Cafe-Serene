@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="RizBits14" />
+    <meta name="description" content="This page is a small project just using HTML" />
+    <title>Café Serene</title>
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="icon" href="Cafe_serene_logo.png" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="center-content">
+            <div class="border-box">
+                <div class="center-content">
+                    <h1>Customer Feedback</h1>
+                    <p><strong>◈ ━━━━━━━━━ ⸙ ━━━━━━━━━ ◈</strong></p>
+                    <p class="justified">Your feedback is immensel valuable to us, as it plays a crucial role in helping us enhance our services and better meet
+                    your needs. We deeply appreciate the time you take to share your thoughts, and we are committed to using your insights
+                    to continuously improve and provide an exceptional experience.</p>
+                    <p class="justified" style="text-align: center;"><strong>Thank you for your input and trust.</strong></p>
+                    <hr color="black"><br><br>
+                </div>
+                <form action="#" method="post" class="feedback-form">
+                    <fieldset>
+                        <legend><strong>Personal Information</strong></legend>
+                        <p>
+                            <label for="firstName"><strong>First Name:</strong></label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Mary" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="middleName" style="font-size: 22px;"><strong>Middle Name:</strong></label>
+                            <input type="text" name="middleName" id="middleName" placeholder="Jane" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="lastName" style="font-size: 22px;"><strong>Last Name:</strong></label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Watson" autocomplete="on" required autofocus>
+                        </p>
+                        <p>
+                            <label for="phone" style="font-size: 22px;"><strong>Phone:</strong></label>
+                            <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                        </p>
+                        <p>
+                            <label for="dob" style="font-size: 22px;"><strong>Date of Birth</strong></label>
+                            <input type="number" name="dob" id="dob" min="1950" max="2000" step="1" value="1980">
+                        </p>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
