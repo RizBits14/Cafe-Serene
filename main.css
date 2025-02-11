@@ -74,12 +74,12 @@ a:hover {
 }
 
 .address-link {
-    color: #333333; /* Change this to your desired color */
+    color: #333333; 
     text-decoration: none;
 }
 
 .address-link:hover {
-    color: #666666; /* Change this to your desired hover color */
+    color: #666666;
     text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ th, td {
 table {
     width: 100%;
     margin: 20px auto;
-    border: 1px solid #F5E1A4;  /* Lighter border */
+    border: 1px solid #F5E1A4; 
     border-collapse: collapse;
     min-width: 800px;
 }
@@ -144,7 +144,7 @@ th, td {
 th {
     font-size: 25px;
     font-weight: bold;
-    background-color: #1a3d37;  /* Slightly darker than the body background */
+    background-color: #1a3d37; 
     color: #F5E1A4;
 }
 
@@ -154,9 +154,7 @@ td {
     color: #F5E1A4;
 }
 
-
-
-td:nth-child(3) {  /* Image column */
+td:nth-child(3) { 
     text-align: center;
 }
 
@@ -168,7 +166,7 @@ td:nth-child(3) {  /* Image column */
 .image-gallery figcaption {
     text-align: center;
     margin-top: 10px;
-    color: #F5E1A4;  /* Matches your color scheme */
+    color: #F5E1A4; 
     font-style: italic;
 }
 
@@ -186,7 +184,6 @@ input[type="number"] {
     color: #25544b;
 }
 
-/* Update hover and focus effects to match all input types */
 input[type="text"]:hover,
 input[type="tel"]:hover,
 input[type="number"]:hover {
@@ -237,15 +234,13 @@ input[type="number"]:focus {
     margin: 15px 0;
 }
 
-/* Checkbox container styling */
 .checkbox-group {
     margin: 10px 0;
     display: flex;
-    align-items: center;  /* This ensures vertical centering */
-    gap: 10px;  /* Consistent spacing between checkbox and label */
+    align-items: center;  
+    gap: 10px;  
 }
 
-/* Custom checkbox styling */
 input[type="checkbox"] {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -257,36 +252,32 @@ input[type="checkbox"] {
     background-color: #F5E1A4;
     cursor: pointer;
     position: relative;
-    margin: 0;  /* Remove default margins */
+    margin: 0; 
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Label styling for checkboxes */
 input[type="checkbox"] + label {
     color: #25544b;
     font-size: 18px;
     cursor: pointer;
     user-select: none;
-    display: flex;  /* Enable flex layout */
-    align-items: center;  /* Center vertically */
-    margin: 0;  /* Remove default margins */
-    line-height: 1;  /* Adjust line height */
+    display: flex;  
+    align-items: center;  
+    margin: 0;  
+    line-height: 1;  
 }
 
-/* Checkbox hover effect */
 input[type="checkbox"]:hover {
     background-color: #fff;
     box-shadow: 0 0 5px rgba(37, 84, 75, 0.2);
 }
 
-/* Checkbox checked state */
 input[type="checkbox"]:checked {
     background-color: #25544b;
 }
 
-/* Checkmark symbol */
 input[type="checkbox"]:checked::after {
     content: '✓';
     position: absolute;
@@ -297,13 +288,11 @@ input[type="checkbox"]:checked::after {
     transform: translate(-50%, -50%);
 }
 
-/* Label hover effect */
 input[type="checkbox"] + label:hover {
     color: #25544b;
     opacity: 0.8;
 }
 
-/* Sub-checkboxes container */
 .sub-checkboxes {
     margin-left: 30px;
     padding-left: 10px;
@@ -311,7 +300,6 @@ input[type="checkbox"] + label:hover {
     margin-bottom: 15px;
 }
 
-/* Sub-item styling */
 .checkbox-group.sub-item {
     margin: 5px 0;
 }
@@ -329,4 +317,66 @@ input[type="checkbox"] + label:hover {
 
 input[type="checkbox"]:checked + label + .sub-checkboxes {
     display: block;
+}
+
+.message-fieldset {
+    border: 3px solid #25544b;
+    border-radius: 8px; 
+    padding: 20px; 
+    background-color: #fff; 
+}
+
+textarea {
+    width: 80%; 
+    padding: 8px; 
+    border: 2px solid #25544b; 
+    border-radius: 4px; 
+    resize: vertical; 
+    background-color: #F5E1A4;
+    color: #25544b; 
+}
+
+textarea:hover,
+textarea:focus {
+    border-color: #555; 
+    box-shadow: 0 0 5px rgba(37, 84, 75, 0.3); 
+}
+
+.rating-group {
+    margin: 10px 0; 
+}
+
+.rating-group label {
+    color: #25544b; 
+    font-size: 18px; 
+    cursor: pointer; 
+}
+
+input[type="radio"] {
+    -webkit-appearance: none; 
+    -moz-appearance: none; 
+    appearance: none; 
+    width: 20px; 
+    height: 20px; 
+    border: 2px solid #25544b; 
+    border-radius: 50%; 
+    background-color: #F5E1A4; 
+    cursor: pointer;
+    position: relative;
+}
+
+input[type="radio"]:checked {
+    background-color: #25544b; 
+}
+
+input[type="radio"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 10px; 
+    height: 10px; 
+    border-radius: 50%; 
+    background-color: #F5E1A4; 
+    transform: translate(-50%, -50%);
 }
