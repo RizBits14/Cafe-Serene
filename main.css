@@ -171,3 +171,68 @@ td:nth-child(3) {  /* Image column */
     color: #F5E1A4;  /* Matches your color scheme */
     font-style: italic;
 }
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+    padding: 8px 12px;
+    border: 2px solid #25544b;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 250px;
+    transition: all 0.3s ease;
+    outline: none;
+    background-color: #F5E1A4;
+    color: #25544b;
+}
+
+/* Update hover and focus effects to match all input types */
+input[type="text"]:hover,
+input[type="tel"]:hover,
+input[type="number"]:hover {
+    border-color: #25544b;
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus {
+    border-color: #25544b;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(37, 84, 75, 0.3);
+}
+
+.feedback-form {
+    background-color: #F5E1A4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(37, 84, 75, 0.4);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.feedback-form fieldset {
+    border: 3px solid #25544b;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #F5E1A4;
+}
+
+.feedback-form legend {
+    color: #F5E1A4;
+    font-size: 24px;
+    padding: 0 10px;
+    background-color: #1d5f54;
+}
+
+.feedback-form label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    color: #25544b;
+    font-size: 22px;
+}
+
+.feedback-form p {
+    margin: 15px 0;
+}
