@@ -17,7 +17,7 @@
                 <div class="center-content">
                     <h1>Customer Feedback</h1>
                     <p><strong>◈ ━━━━━━━━━ ⸙ ━━━━━━━━━ ◈</strong></p>
-                    <p class="justified">Your feedback is immensel valuable to us, as it plays a crucial role in helping us enhance our services and better meet
+                    <p class="justified">Your feedback is immensely valuable to us, as it plays a crucial role in helping us enhance our services and better meet
                     your needs. We deeply appreciate the time you take to share your thoughts, and we are committed to using your insights
                     to continuously improve and provide an exceptional experience.</p>
                     <p class="justified" style="text-align: center;"><strong>Thank you for your input and trust.</strong></p>
@@ -31,24 +31,100 @@
                             <input type="text" name="firstName" id="firstName" placeholder="Mary" autocomplete="on" required autofocus>
                         </p>
                         <p>
-                            <label for="middleName" style="font-size: 22px;"><strong>Middle Name:</strong></label>
-                            <input type="text" name="middleName" id="middleName" placeholder="Jane" autocomplete="on" required autofocus>
+                            <label for="middleName"><strong>Middle Name:</strong></label>
+                            <input type="text" name="middleName" id="middleName" placeholder="Jane" autocomplete="on" required>
                         </p>
                         <p>
-                            <label for="lastName" style="font-size: 22px;"><strong>Last Name:</strong></label>
-                            <input type="text" name="lastName" id="lastName" placeholder="Watson" autocomplete="on" required autofocus>
+                            <label for="lastName"><strong>Last Name:</strong></label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Watson" autocomplete="on" required>
                         </p>
                         <p>
-                            <label for="phone" style="font-size: 22px;"><strong>Phone:</strong></label>
+                            <label for="phone"><strong>Phone:</strong></label>
                             <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
                         </p>
                         <p>
-                            <label for="dob" style="font-size: 22px;"><strong>Date of Birth</strong></label>
-                            <input type="number" name="dob" id="dob" min="1950" max="2000" step="1" value="1980">
+                            <label for="dob"><strong>Date of Birth:</strong></label>
+                            <input type="number" name="dob" id="dob" min="1950" max="2000" step="1" value="1980" required>
                         </p>
+                        <p>
+                            <label for="heard"><strong>How did you hear about us?</strong></label>
+                            <input type="text" name="heard" id="heard" list="heard-list" placeholder="Select or type...">
+                            <datalist id="heard-list">
+                                <option value="Facebook">
+                                <option value="Instagram">
+                                <option value="Twitter">
+                                <option value="Friends">
+                                <option value="Family">
+                                <option value="Google Search">
+                                <option value="Others">
+                            </datalist>
+                        </p>
+                    </fieldset>
+                    <hr color="black"><br><br>
+                    <fieldset>
+                        <legend><strong>What did you like the best?</strong></legend>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="viennoiseries" id="viennoiseries" value="viennoiseries">
+                            <label for="viennoiseries">VIENNOISERIES</label>
+                        </div>
+                        <div class="sub-checkboxes">
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="croissant" id="croissant" value="croissant">
+                                <label for="croissant">Croissant</label>
+                            </div>
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="painauchocolat" id="painauchocolat" value="painauchocolat">
+                                <label for="painauchocolat">Pain au Chocolat</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="tartes" id="tartes" value="tartes">
+                            <label for="tartes">TARTES</label>
+                        </div>
+                        <div class="sub-checkboxes">
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="appletart" id="appletart" value="appletart">
+                                <label for="appletart">Apple Tart</label>
+                            </div>
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="lemontart" id="lemontart" value="lemontart">
+                                <label for="lemontart">Lemon Tart</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="cookies" id="cookies" value="cookies">
+                            <label for="cookies">COOKIES</label>
+                        </div>
+                        <div class="sub-checkboxes">
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="cookies" id="cookies" value="cookies">
+                                <label for="cookies">Cookies</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="pound cakes" id="pound cakes" value="pound cakes">
+                            <label for="pound cakes">POUND CAKES</label>
+                        </div>
+                        <div class="sub-checkboxes">
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="cookies" id="cookies" value="cookies">
+                                <label for="cookies">Cookies</label>
+                            </div>
+                        </div>
+                        <div class="checkbox-group">
+                            <input type="checkbox" name="coffee" id="coffee" value="coffee">
+                            <label for="coffee">COFFEE</label>
+                        </div>
+                        <div class="sub-checkboxes">
+                            <div class="checkbox-group sub-item">
+                                <input type="checkbox" name="cookies" id="cookies" value="cookies">
+                                <label for="cookies">Cookies</label>
+                            </div>
+                        </div>
                     </fieldset>
                 </form>
             </div>
         </div>
     </div>
 </body>
+</html>
