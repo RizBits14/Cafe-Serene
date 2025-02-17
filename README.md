@@ -1,5 +1,8 @@
 # Cafe-Serene
 Just creating a webpage using HTML and some very basic CSS
+I have used the menu and prices from one of my known French culinary cafe Le d'or 
+https://ledor.club/
+
 
 Some screenshots of the webpage
 
